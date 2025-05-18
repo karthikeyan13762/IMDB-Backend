@@ -7,4 +7,5 @@ const producerSchema = new mongoose.Schema({
   bio: { type: String, required: true },
 });
 
-export const producerModel = mongoose.model("Producer", producerSchema);
+const producerModel = mongoose.model("Producer", producerSchema);
+export default producerModel;

@@ -7,4 +7,5 @@ const actorSchema = new mongoose.Schema({
   bio: { type: String, required: true },
 });
 
-export const actorModel = mongoose.model("Actor", actorSchema);
+const actorModel = mongoose.model("Actor", actorSchema);
+export default actorModel;
